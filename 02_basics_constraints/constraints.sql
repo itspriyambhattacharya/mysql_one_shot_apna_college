@@ -31,3 +31,6 @@ WHERE marks >=80;
 SELECT name, marks, city
 FROM student
 WHERE marks >=80 AND city = "Mumbai";
+
+SELECT AVG(marks) "Average Marks"
+FROM student;

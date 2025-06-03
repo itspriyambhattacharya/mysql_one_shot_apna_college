@@ -34,3 +34,10 @@ WHERE marks >=80 AND city = "Mumbai";
 
 SELECT AVG(marks) "Average Marks"
 FROM student;
+
+# Q2. Write a query to find average marks in each city in ascending order.
+
+SELECT city, AVG(marks)
+FROM student
+GROUP BY city
+ORDER BY AVG(marks);

@@ -41,3 +41,8 @@ SELECT city, AVG(marks)
 FROM student
 GROUP BY city
 ORDER BY AVG(marks);
+
+SELECT city, AVG(marks)
+FROM student
+GROUP BY city
+ORDER BY (city);

@@ -1,0 +1,7 @@
+USE college2;
+
+CREATE TABLE department(
+did VARCHAR(3),
+name VARCHAR(50) UNIQUE NOT NULL,
+PRIMARY KEY(did)
+);
